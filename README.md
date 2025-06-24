@@ -79,8 +79,8 @@ tlob training result (experiment 1)
 |recall        |      0.7441 |
 |test_loss     |      0.3938 |
 
-baseline performance from paper
-### 사진 @@@@@@@@@@@@
+baseline performance from paper  
+![Image](https://github.com/user-attachments/assets/463cc491-4016-43c1-a2ef-c639ff0e6508)
 
 2. result for each signal
 
@@ -103,7 +103,9 @@ baseline performance from paper
 
 ### 모의투자 api 연결
 
-### (사진) !!!!!!!!!!!!!!!
+![Image](https://github.com/user-attachments/assets/20cd773e-d3b7-416d-9ddb-4b17e497162c)
+![Image](https://github.com/user-attachments/assets/2b21b841-cb82-430d-8cdb-80e4f0b66deb)
+![Image](https://github.com/user-attachments/assets/fe5ccd9b-fd37-420f-939f-cdd37e551086)  
 
 결과분석
 - 실제 주가 예측에서는 가격 하락 예측을 잘 하지 못하는 것으로 나타남
