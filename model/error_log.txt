@@ -1,0 +1,8 @@
+cuda 디버깅시
+set CUDA_LAUNCH_BLOCKING=1
+
+if torch.onnx.is_in_onnx_export():
+
+onnx 모든 루트 변수 설정 (gpt 참고)
+
+self.layer.norm gpt 참고

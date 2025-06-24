@@ -1,0 +1,51 @@
+model:
+  hyperparameters_fixed:
+    num_layers: 4
+    hidden_dim: 40
+    num_heads: 1
+    is_sin_emb: true
+    lr: 0.0001
+    seq_size: 128
+    all_features: true
+  hyperparameters_sweep:
+    num_layers:
+    - 4
+    - 6
+    hidden_dim:
+    - 128
+    - 256
+    num_heads:
+    - 1
+    is_sin_emb:
+    - true
+    lr:
+    - 0.0001
+    seq_size:
+    - 128
+  type: TLOB
+dataset:
+  type: LOBSTER
+  dates:
+  - '2015-01-02'
+  - '2015-01-30'
+  batch_size: 128
+  sampling_type: QUANTITY
+  sampling_time: 1s
+  sampling_quantity: 500
+  training_stocks:
+  - INTC
+  testing_stocks:
+  - INTC
+experiment:
+  is_data_preprocessed: false
+  is_wandb: true
+  is_sweep: false
+  type:
+  - TRAINING
+  is_debug: false
+  checkpoint_reference: ''
+  seed: 1
+  horizon: 20
+  max_epochs: 10
+  dir_ckpt: model.ckpt
+  optimizer: Adam
